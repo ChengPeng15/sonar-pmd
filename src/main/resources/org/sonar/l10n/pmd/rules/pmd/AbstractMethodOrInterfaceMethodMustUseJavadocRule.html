@@ -2,29 +2,12 @@
 <p>Examples:</p>
 <pre>
 /**
-  *
-  * XXX class function description.
-  *
-  */
-  public class XxClass implements Serializable {
-      private static final long serialVersionUID = 113323427779853001L;
-      /**
-      * id
-      */
-      private Long id;
-      /**
-      * title
-      */
-      private String title;
-      /**
-      * find by id
-      *
-      * @param ruleId rule id
-      * @param page start from 1
-      * @return Result<Xxxx>
-      */
-      public Result<Xxxx> funcA(Long ruleId, Integer page) {
-          return null;
-      }
-  }
+     * fetch data by rule id
+     *
+     * @param ruleId rule id
+     * @param page page number
+     * @param jsonContext json format context
+     * @return Result<XxxxDO>
+     */
+    Result<XxxxDO> fetchDataByRuleId(Long ruleId, Integer page, String jsonContext);
 </pre>

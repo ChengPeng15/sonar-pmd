@@ -15,7 +15,7 @@
   </rule>
 
   <rule key="EnumConstantsMustHaveCommentRule">
-    <priority>MAJOR</priority>
+    <priority>Critical</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/EnumConstantsMustHaveCommentRule]]></configKey>
   </rule>
 

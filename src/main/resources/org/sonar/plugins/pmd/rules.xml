@@ -184,6 +184,25 @@
     <configKey><![CDATA[rulesets/java/ali-orm.xml/IbatisMethodQueryForListRule]]></configKey>
   </rule>
 
+<!--9 ali-other  AlibabaJavaOthers-->
 
-  <!-- BLOCKER  CRITICAL  MAJOR-->
+    <rule key="AvoidPatternCompileInMethodRule">
+        <priority>BLOCKER</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidPatternCompileInMethodRule]]></configKey>
+    </rule>
+    <rule key="AvoidApacheBeanUtilsCopyRule">
+        <priority>BLOCKER</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidApacheBeanUtilsCopyRule]]></configKey>
+    </rule>
+    <rule key="AvoidNewDateGetTimeRule">
+        <priority>BLOCKER</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidNewDateGetTimeRule]]></configKey>
+    </rule>
+    <rule key="AvoidMissUseOfMathRandomRule">
+        <priority>MAJOR</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidMissUseOfMathRandomRule]]></configKey>
+    </rule>
+
+
+    <!-- BLOCKER  CRITICAL  MAJOR-->
 </rules>

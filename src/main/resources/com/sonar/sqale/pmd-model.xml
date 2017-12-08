@@ -4468,4 +4468,58 @@
             <txt>min</txt>
         </prop>
     </chc>
+
+    <!--9-->
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidPatternCompileInMethodRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>h</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidApacheBeanUtilsCopyRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>h</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidNewDateGetTimeRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>h</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidMissUseOfMathRandomRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
 </sqale>

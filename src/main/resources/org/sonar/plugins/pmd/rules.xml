@@ -151,7 +151,7 @@
 
   <!--7 ali-oop AlibabaJavaOop-->
 
-  <!-- BLOCKER  CRITICAL  MAJOR-->
+
   <rule key="EqualsAvoidNullRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/ali-oop.xml/EqualsAvoidNullRule]]></configKey>
@@ -178,4 +178,12 @@
   </rule>
 
 
+  <!--8 ali-orm AlibabaJavaOrm-->
+  <rule key="IbatisMethodQueryForListRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-orm.xml/IbatisMethodQueryForListRule]]></configKey>
+  </rule>
+
+
+  <!-- BLOCKER  CRITICAL  MAJOR-->
 </rules>

@@ -29,4 +29,43 @@
     <configKey><![CDATA[rulesets/java/ali-comment.xml/RemoveCommentedCodeRule]]></configKey>
   </rule>
 
+
+
+
+  <rule key="ThreadPoolCreationRule">
+    <priority>Blocker</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/ThreadPoolCreationRule]]></configKey>
+  </rule>
+  <rule key="AbstractMethodOrInterfaceMethodMustUseJavadocRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/AbstractMethodOrInterfaceMethodMustUseJavadocRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-concurrent.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+
+
+
+
 </rules>

@@ -203,6 +203,32 @@
         <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidMissUseOfMathRandomRule]]></configKey>
     </rule>
 
+<!--10 ali-set AlibabaJavaSets -->
 
     <!-- BLOCKER  CRITICAL  MAJOR-->
+  <rule key="ClassCastExceptionWithToArrayRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-set.xml/ClassCastExceptionWithToArrayRule]]></configKey>
+  </rule>
+  <rule key="UnsupportedExceptionWithModifyAsListRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-set.xml/UnsupportedExceptionWithModifyAsListRule]]></configKey>
+  </rule>
+  <rule key="ClassCastExceptionWithSubListToArrayListRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-set.xml/ClassCastExceptionWithSubListToArrayListRule]]></configKey>
+  </rule>
+  <rule key="ConcurrentExceptionWithModifyOriginSubListRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-set.xml/ConcurrentExceptionWithModifyOriginSubListRule]]></configKey>
+  </rule>
+  <rule key="DontModifyInForeachCircleRule">
+    <priority>BLOCKER</priority>
+    <configKey><![CDATA[rulesets/java/ali-set.xml/DontModifyInForeachCircleRule]]></configKey>
+  </rule>
+  <rule key="CollectionInitShouldAssignCapacityRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-set.xml/CollectionInitShouldAssignCapacityRule]]></configKey>
+  </rule>
+
 </rules>

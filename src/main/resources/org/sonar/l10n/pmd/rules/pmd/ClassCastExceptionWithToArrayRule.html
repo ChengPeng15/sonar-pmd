@@ -1,0 +1,10 @@
+<p>Look for qualified this usages in the same class.</p>
+<p>Examples:</p>
+<pre>
+Negative example:
+   Integer[] a = (Integer [])c.toArray();
+</pre>
+<pre>
+Positive example：
+   Integer[] b = (Integer [])c.toArray(new Integer[c.size()]);
+</pre>

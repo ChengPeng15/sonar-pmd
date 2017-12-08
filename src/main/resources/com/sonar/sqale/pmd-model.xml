@@ -3927,6 +3927,7 @@
     </chc>
 
 
+
     <chc>
         <rule-repo>p3c</rule-repo>
         <rule-key>CommentsMustBeJavadocFormatRule</rule-key>
@@ -3940,7 +3941,6 @@
             <txt>min</txt>
         </prop>
     </chc>
-
     <chc>
         <rule-repo>p3c</rule-repo>
         <rule-key>AbstractMethodOrInterfaceMethodMustUseJavadocRule</rule-key>
@@ -3954,8 +3954,6 @@
             <txt>min</txt>
         </prop>
     </chc>
-
-
     <chc>
         <rule-repo>p3c</rule-repo>
         <rule-key>ClassMustHaveAuthorRule</rule-key>
@@ -3969,8 +3967,6 @@
             <txt>min</txt>
         </prop>
     </chc>
-
-
     <chc>
         <rule-repo>p3c</rule-repo>
         <rule-key>EnumConstantsMustHaveCommentRule</rule-key>
@@ -3981,11 +3977,9 @@
         <prop>
             <key>offset</key>
             <val>2</val>
-            <txt>min</txt>
+            <txt>h</txt>
         </prop>
     </chc>
-
-
     <chc>
         <rule-repo>p3c</rule-repo>
         <rule-key>AvoidCommentBehindStatementRule</rule-key>
@@ -3999,8 +3993,6 @@
             <txt>min</txt>
         </prop>
     </chc>
-
-
     <chc>
         <rule-repo>p3c</rule-repo>
         <rule-key>RemoveCommentedCodeRule</rule-key>
@@ -4014,6 +4006,114 @@
             <txt>min</txt>
         </prop>
     </chc>
+
+<!--2-->
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>ThreadPoolCreationRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>h</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidUseTimerRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>h</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidManuallyCreateThreadRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>10</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>ThreadShouldSetNameRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>10</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidCallStaticSimpleDateFormatRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>10</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>ThreadLocalShouldRemoveRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>10</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidConcurrentCompetitionRandomRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>CountDownShouldInFinallyRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+
+<!--3-->
 
 
 </sqale>

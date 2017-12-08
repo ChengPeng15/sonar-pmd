@@ -104,4 +104,55 @@
     <configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
   </rule>
 
+  <!--6 ali-naming AlibabaJavaNaming-->
+  <rule key="ClassNamingShouldBeCamelRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/ClassNamingShouldBeCamelRule]]></configKey>
+  </rule>
+  <rule key="AbstractClassShouldStartWithAbstractNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/AbstractClassShouldStartWithAbstractNamingRule]]></configKey>
+  </rule>
+  <rule key="ExceptionClassShouldEndWithExceptionRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/ExceptionClassShouldEndWithExceptionRule]]></configKey>
+  </rule>
+  <rule key="TestClassShouldEndWithTestNamingRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/TestClassShouldEndWithTestNamingRule]]></configKey>
+  </rule>
+
+  <rule key="LowerCamelCaseVariableNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/LowerCamelCaseVariableNamingRule]]></configKey>
+  </rule>
+  <rule key="AvoidStartWithDollarAndUnderLineNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/AvoidStartWithDollarAndUnderLineNamingRule]]></configKey>
+  </rule>
+  <rule key="ConstantFieldShouldBeUpperCaseRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/ConstantFieldShouldBeUpperCaseRule]]></configKey>
+  </rule>
+  <rule key="ServiceOrDaoClassShouldEndWithImplRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/ServiceOrDaoClassShouldEndWithImplRule]]></configKey>
+  </rule>
+
+  <rule key="PackageNamingRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/PackageNamingRule]]></configKey>
+  </rule>
+  <rule key="BooleanPropertyShouldNotStartWithIsRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/BooleanPropertyShouldNotStartWithIsRule]]></configKey>
+  </rule>
+  <rule key="ArrayNamingShouldHaveBracketRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-naming.xml/ArrayNamingShouldHaveBracketRule]]></configKey>
+  </rule>
+
+
+  <!--CRITICAL  MAJOR-->
+
 </rules>

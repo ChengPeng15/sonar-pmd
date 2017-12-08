@@ -4141,4 +4141,44 @@
         </prop>
     </chc>
 
+    <!--4-->
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>MethodReturnWrapperTypeRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>AvoidReturnInFinallyRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>10</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
+    <chc>
+        <rule-repo>p3c</rule-repo>
+        <rule-key>TransactionMustHaveRollbackRule</rule-key>
+        <prop>
+            <key>remediationFunction</key>
+            <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+            <key>offset</key>
+            <val>2</val>
+            <txt>min</txt>
+        </prop>
+    </chc>
 </sqale>

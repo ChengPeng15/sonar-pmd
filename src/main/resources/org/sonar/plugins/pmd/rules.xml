@@ -75,4 +75,19 @@
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-constant.xml/UndefineMagicConstantRule]]></configKey>
   </rule>
+
+  <!--4 ali-exception  AlibabaJavaExceptions-->
+  <rule key="MethodReturnWrapperTypeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-exception.xml/MethodReturnWrapperTypeRule]]></configKey>
+  </rule>
+  <rule key="AvoidReturnInFinallyRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/ali-exception.xml/AvoidReturnInFinallyRule]]></configKey>
+  </rule>
+  <rule key="TransactionMustHaveRollbackRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-exception.xml/TransactionMustHaveRollbackRule]]></configKey>
+  </rule>
+
 </rules>

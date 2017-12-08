@@ -1,0 +1,17 @@
+<p>Look for qualified this usages in the same class.</p>
+<p>Examples:</p>
+<pre>
+反例:
+    String result;
+    for (String string : tagNameList) {
+        result = result + string;
+    }
+</pre>
+<pre>
+正例:
+    StringBuilder stringBuilder = new StringBuilder();
+    for (String string : tagNameList) {
+        stringBuilder.append(string);
+    }
+    String result = stringBuilder.toString();
+</pre>

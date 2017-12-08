@@ -1,0 +1,15 @@
+<p>Look for qualified this usages in the same class.</p>
+<p>Examples:</p>
+<pre>
+ Negative example:
+   //Magic values, except for predefined, are forbidden in coding.
+   if(key.equals("Id#taobao_1")){
+      //...
+</pre>
+<pre>
+ Positive example:
+   String KEY_PRE = "Id#taobao_1";
+   if(key.equals(KEY_PRE)){
+       //...
+   }
+</pre>

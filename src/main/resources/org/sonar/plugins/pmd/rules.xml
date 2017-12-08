@@ -1,37 +1,33 @@
 <rules>
+
+  <!--1 ali-comment  AlibabaJavaComments -->
   <rule key="CommentsMustBeJavadocFormatRule">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/CommentsMustBeJavadocFormatRule]]></configKey>
   </rule>
-
   <rule key="AbstractMethodOrInterfaceMethodMustUseJavadocRule">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/AbstractMethodOrInterfaceMethodMustUseJavadocRule]]></configKey>
   </rule>
-
   <rule key="ClassMustHaveAuthorRule">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/ClassMustHaveAuthorRule]]></configKey>
   </rule>
-
   <rule key="EnumConstantsMustHaveCommentRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/EnumConstantsMustHaveCommentRule]]></configKey>
   </rule>
-
   <rule key="AvoidCommentBehindStatementRule">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/AvoidCommentBehindStatementRule]]></configKey>
   </rule>
-
   <rule key="RemoveCommentedCodeRule">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/ali-comment.xml/RemoveCommentedCodeRule]]></configKey>
   </rule>
 
 
-
-
+<!--2 ali-concurrent  AlibabaJavaConcurrent-->
   <rule key="ThreadPoolCreationRule">
     <priority>BLOCKER </priority>
     <configKey><![CDATA[rulesets/java/ali-concurrent.xml/ThreadPoolCreationRule]]></configKey>
@@ -66,7 +62,7 @@
   </rule>
 
 
-<!--3 AlibabaJavaConstants-->
+<!--3 ali-constant AlibabaJavaConstants-->
   <rule key="UpperEllRule">
     <priority>BLOCKER</priority>
     <configKey><![CDATA[rulesets/java/ali-constant.xml/UpperEllRule]]></configKey>
@@ -110,8 +106,8 @@
     <configKey><![CDATA[rulesets/java/ali-naming.xml/ClassNamingShouldBeCamelRule]]></configKey>
   </rule>
   <rule key="AbstractClassShouldStartWithAbstractNamingRule">
-    <priority>CRITICAL</priority>
-    <configKey><![CDATA[rulesets/java/ali-naming.xml/AbstractClassShouldStartWithAbstractNamingRule]]></configKey>
+  <priority>CRITICAL</priority>
+  <configKey><![CDATA[rulesets/java/ali-naming.xml/AbstractClassShouldStartWithAbstractNamingRule]]></configKey>
   </rule>
   <rule key="ExceptionClassShouldEndWithExceptionRule">
     <priority>CRITICAL</priority>

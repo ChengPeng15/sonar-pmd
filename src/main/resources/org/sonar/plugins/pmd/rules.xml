@@ -17,7 +17,7 @@
     <rule key="EnumConstantsMustHaveCommentRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-comment.xml/EnumConstantsMustHaveCommentRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="AvoidCommentBehindStatementRule">
         <priority>MAJOR</priority>
@@ -43,22 +43,22 @@
     <rule key="AvoidManuallyCreateThreadRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/AvoidManuallyCreateThreadRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ThreadShouldSetNameRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/ThreadShouldSetNameRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="AvoidCallStaticSimpleDateFormatRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/AvoidCallStaticSimpleDateFormatRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ThreadLocalShouldRemoveRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/ThreadLocalShouldRemoveRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="AvoidConcurrentCompetitionRandomRule">
         <priority>MAJOR</priority>
@@ -89,7 +89,7 @@
     <rule key="AvoidReturnInFinallyRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-exception.xml/AvoidReturnInFinallyRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="TransactionMustHaveRollbackRule">
         <priority>MAJOR</priority>
@@ -100,7 +100,7 @@
     <rule key="SwitchStatementRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/SwitchStatementRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="NeedBraceRule">
         <priority>BLOCKER</priority>
@@ -120,12 +120,12 @@
     <rule key="AbstractClassShouldStartWithAbstractNamingRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/AbstractClassShouldStartWithAbstractNamingRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ExceptionClassShouldEndWithExceptionRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/ExceptionClassShouldEndWithExceptionRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="TestClassShouldEndWithTestNamingRule">
         <priority>MAJOR</priority>
@@ -135,22 +135,22 @@
     <rule key="LowerCamelCaseVariableNamingRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/LowerCamelCaseVariableNamingRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="AvoidStartWithDollarAndUnderLineNamingRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/AvoidStartWithDollarAndUnderLineNamingRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ConstantFieldShouldBeUpperCaseRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/ConstantFieldShouldBeUpperCaseRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ServiceOrDaoClassShouldEndWithImplRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/ServiceOrDaoClassShouldEndWithImplRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
 
     <rule key="PackageNamingRule">
@@ -160,7 +160,7 @@
     <rule key="BooleanPropertyShouldNotStartWithIsRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-naming.xml/BooleanPropertyShouldNotStartWithIsRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ArrayNamingShouldHaveBracketRule">
         <priority>MAJOR</priority>
@@ -174,7 +174,7 @@
     <rule key="EqualsAvoidNullRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-oop.xml/EqualsAvoidNullRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="WrapperTypeEqualityRule">
         <priority>BLOCKER</priority>
@@ -233,22 +233,22 @@
     <rule key="ClassCastExceptionWithToArrayRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-set.xml/ClassCastExceptionWithToArrayRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="UnsupportedExceptionWithModifyAsListRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-set.xml/UnsupportedExceptionWithModifyAsListRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ClassCastExceptionWithSubListToArrayListRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-set.xml/ClassCastExceptionWithSubListToArrayListRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="ConcurrentExceptionWithModifyOriginSubListRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-set.xml/ConcurrentExceptionWithModifyOriginSubListRule]]></configKey>
-        <type>Vulnerability</type>
+        <type>VULNERABILITY</type>
     </rule>
     <rule key="DontModifyInForeachCircleRule">
         <priority>BLOCKER</priority>
